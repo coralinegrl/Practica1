@@ -1,0 +1,76 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Estilos para encabezados (h1, h2, h3, etc.) */
+  h1 {
+    color: #333;
+  }
+  
+  /* Estilos para enlaces */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para una clase específica */
+  .my-custom-class {
+    background-color: #ffcc00;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para una lista no ordenada */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Estilos para una imagen */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para un contenedor específico */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para un formulario */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para un botón */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
